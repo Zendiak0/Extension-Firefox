@@ -6,7 +6,7 @@
     "description": "Ajouter une bordure rouge sur tout les sites.",
 
     "icons": {
-        "48": "img/"
+        "48": "img/Zendiak_PP_petite.png"
     },
     "content_scripts": [
         {
