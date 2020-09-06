@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Zendiak's",
+    "version": "1.0",
+
+    "description": "Ajouter une bordure rouge sur tout les sites.",
+
+    "icons": {
+        "48": "img/"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.mozilla.org/*"],
+            "js": ["borderify.js"]
+        }
+    ]
+
+}
